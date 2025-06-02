@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+</head>
+<body>
+    <h2>Loan Payment Calculator</h2>
+    <form action="part4_result.php" method="POST">
+        <label for="loan_amount">Loan Amount (Principal):</label>
+        <input type="text" id="loan_amount" name="loan_amount" required><br><br>
+
+        <label for="annual_interest_rate">Annual Interest Rate (%):</label>
+        <input type="text" id="annual_interest_rate" name="annual_interest_rate" required><br><br>
+
+        <label for="loan_term_years">Loan Term (Years):</label>
+        <input type="text" id="loan_term_years" name="loan_term_years" required><br><br>
+
+        <input type="submit" value="Calculate Payment">
+    </form>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Library Information</h1>
+        <nav>
+            <ul>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#bookForm">Add a Book</a></li>
+                <li class="source"><a href="https://openlibrary.org/">Open Library</a></li>
+                <li class="source"><a href="https://kniga.lv/en">Book Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <p>Books are an important part of every educated person's life. For this reason, we should not think about such
+        important things as literature in today's society where everyone spends half of their day on the Internet.</p>
+
+    <h3>Here are quotes that inspire us to read a book:</h3>
+    <ol>
+        <li><i>‘Where books burn, soon people will burn.’</i> - Heinrich Heine.</li>
+        <li><i>„Страницы книг — познания истоки,<br>
+                Но людям Жизнь в любые времена<br>
+                Преподавала главные уроки,<br>
+                Учительница лучшая — она.“</i> — Гамзат Цадаса</li>
+        <li><i>‘He who does not read good books has no advantage over a man who cannot read them.’</i> - Mark Twain.
+        </li>
+        <li><i>‘A room without books is like a body without a soul.’</i> - Marcus Tullius Cicero.</li>
+        <li><i>‘Enlightened is the nation that lived, fought and built with a book in its hand.’</i> - Garegin Nzhdeh.
+        </li>
+        <li><i>‘There are two motives for reading a book: one is that you like it; the other is that you can boast about
+                it.’</i> - Bertrand Russell.</li>
+    </ol>
+
+    <p>Translated by DeepL.com (free version)</p>
+    <p id="source">Source: <a href="https://ru.citaty.net/tsitaty-o-knigakh/"
+            target="_blank">https://ru.citaty.net/tsitaty-o-knigakh/</a></p>
+
+
+
+
+    <h2><b>All Books</b></h2>
+    <div class="my-books" id="books">
+
+        <div class="responsive">
+            <div class="img">
+                <img src="https://cdn.britannica.com/87/138787-050-33727493/Belovezhskaya-Forest-Poland.jpg"
+                    alt="Cinque Terre">
+            </div>
+            <div class="desc">
+                <div class="product-title">Treasure Island</div>
+                <div class="product-author">Stevenson, Robert Lewis </div>
+                <div class="product-category">Classic literature</div>
+                <div class="year">99 y.</div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="form">
+        <h2>Add a <b>New</b> Book</h2>
+        <form id="bookForm">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title">
+            <div id="titleError" class="error-message"></div> <!-- Для ошибки в поле Title -->
+
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author">
+            <div id="authorError" class="error-message"></div> <!-- Для ошибки в поле Author -->
+
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category">
+            <div id="categoryError" class="error-message"></div> <!-- Для ошибки в поле Category -->
+
+            <label for="year">Publication Year:</label>
+            <input type="number" id="year" name="year">
+            <div id="yearError" class="error-message"></div> <!-- Для ошибки в поле Year -->
+
+            <label for="image">Image URL (optional):</label>
+            <input type="url" id="image" name="image">
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <h2>Website author information ↓</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Anna Zdancuka</td>
+                    <td>anna.zdancuka@gmail.com</td>
+                    <td>Developer</td>
+                </tr>
+                <tr>
+                    <td>Anna Zdancuka</td>
+                    <td>az24095@edu.lu.lv</td>
+                    <td>Designer</td>
+                </tr>
+            </tbody>
+        </table>
+    </footer>
+    <script src="books.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</body>
+
+</html>

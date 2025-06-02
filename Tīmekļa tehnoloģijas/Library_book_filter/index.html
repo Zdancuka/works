@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+Anna Zdancuka az24095
+-->
+<html>
+    <head>
+        <title>Library</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="books.js"></script>
+        <script src="homework3.js"></script>
+        <style>
+            table, td, th { border: 1px solid rgb(128, 128, 128); border-collapse: collapse;}
+            td:nth-child(3), td:nth-child(6) {text-align: center;}
+        </style>
+    </head>
+    <body>
+        <h1>Books in the Library</h1>
+        <div>
+          <div>
+            <label for="genre-list">Genre:</label>
+            <select id="genre-list">
+				<option value="">All</option>
+			</select>
+          </div>
+          <div>Publication year 
+            <label for="publication-year-from">from:</label>      
+            <input type="text" id="publication-year-from">
+            <label for="publication-year-until"> until:</label>      
+            <input type="text" id="publication-year-until">
+          </div> 
+          <div>
+            <label for="country-list">Author nationality:</label>
+            <select id="country-list">
+				<option value="">All</option>
+			</select>
+          </div>             
+          <div>
+            <label for="available">Show only available books</label>      
+            <input type="checkbox" id="available">
+          </div>        
+          <div>
+            <label for="search">Book search:</label>      
+            <input type="search" id="search">
+          </div>
+          <div>
+            <label for="author-info">Include author information</label>      
+            <input type="checkbox" id="author-info" checked>
+          </div>    
+          <div id="buttons">
+            <button id="show">Show</button>
+          </div>
+            <table>
+          </table>
+        </div>
+    </body>
+</html>
