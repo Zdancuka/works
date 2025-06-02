@@ -1,0 +1,35 @@
+G 1. Vienvirziena saistītais saraksts
+
+Ievade long 	Ievade list		Paredzamā reakcija					Rezultāts (C++)
+4   		3 3 5 5 7 7		All values appear at least twice.			+
+1  		1			Some values appear less than twice. 			+
+4   		7 1 3 3			Some values appear less than twice.			+
+0       				List is empty. All values appear at least twice: false. +
+-3      				Error: Number of elements cannot be negative.		+
+yyy      				List is empty. All values appear at least twice: false.	+
+4		4 4 4 4			All values appear at least twice.			+
+
+
+G 2. STL std::list konteineris
+
+Ievade long 	Ievade list		Paredzamā reakcija					Rezultāts (C++)
+4   		3 3 5 5 7 7		All values appear at least twice.			+
+1  		1			Some values appear less than twice. 			+
+4   		7 1 3 3			Some values appear less than twice.			+
+0       				List is empty. All values appear at least twice: false. +
+-3      				Error: Number of elements cannot be negative.		+
+yyy      				List is empty. All values appear at least twice: false.	+
+4		4 4 4 4			All values appear at least twice.			+
+
+H
+Darbiba			Error			 	Paredzamā reakcija				Rezultāts (C++)
+1. Izvelies darbibu:	5 (ir 1-4 un 0 darbības) 	Izvele jabut starp 0 un 4.			+
+2. Izvelies darbibu:	ee (ir 1-4 un 0 darbības)	Nederiga izvele, ievadi skaitli no 0 lidz 4.	+
+3. Izvelies darbibu: 1	2005 3 45		 	Kluda: ievaditais datums nav derigs.		+
+4. Izvelies darbibu: 1	Gads: hhh		 	Kluda: jaievada vesels skaitlis!		+
+5. Izvelies darbibu: 1	-55 66 43		 	Kluda: ievaditais datums nav derigs.		+
+6. Izvelies darbibu: 2	2005 3 45		 	Kluda: ievaditais datums nav derigs.		+
+7. Izvelies darbibu: 2	Gads: hhh		 	Kluda: jaievada vesels skaitlis!		+
+8. Izvelies darbibu: 2	-55 66 43		 	Kluda: ievaditais datums nav derigs.		+
+9. Izvelies darbibu: 1	2004 02 11 (jau ir faila)	Datums jau eksiste faila.			+
+10.Izvelies darbibu: 2	2009 02 04 (nav ir faila)	Datums nav atrasts.				+

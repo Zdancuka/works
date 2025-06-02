@@ -1,0 +1,6 @@
+Hello,Hi
+world,Earth
+tests,experiment
+replace,substitute
+quick,speedy
+lazy,sleepy
