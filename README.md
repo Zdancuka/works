@@ -12,7 +12,10 @@ Various technologies were used depending on the course including:
 - SQL
 
 🧑‍🎓 Author
-First Name Surname (student of group XXXXX)
+Name Surname: Anna Zdancuka
+
 Email: anna.zdancuka@gmail.com
+
 University: Latvijas Universitate
+
 Course: Datorzinātnes
